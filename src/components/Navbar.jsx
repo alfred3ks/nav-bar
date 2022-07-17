@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
 import '../css/Navbar.css'
 
-
 function Navbar() {
 
   // Creamos el estado para el menu
   const [active, setActive] = useState('nav__menu');
 
-  // Estado de las lineas menu:
+  // Creamos el estado de las lineas menu:
   const [toggleIcon, setToggleIcon] = useState('nav__toggler');
 
   // funcion para pulsar menu hamburguer:
@@ -16,7 +15,7 @@ function Navbar() {
       ? setActive('nav__menu nav__active')
       : setActive('nav__menu')
 
-    // Toggle animation:
+    // Animacion de las lineas del menu hamburguesa:
     toggleIcon === 'nav__toggler'
       ? setToggleIcon('nav__toggler toggle')
       : setToggleIcon('nav__toggler')
