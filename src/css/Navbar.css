@@ -61,7 +61,7 @@
 
 /* Toggle icon animation */
 .toggle .line1 {
-  transform: rotate(-45deg) translate(-4px, 5px);
+  transform: rotate(-45deg) translate(-4px, 4px);
 }
 .toggle .line2 {
   opacity: 0;

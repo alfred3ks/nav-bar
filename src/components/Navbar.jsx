@@ -25,7 +25,6 @@ function Navbar() {
     <nav className="nav">
       <a href="/" className="nav__brand">alfred3ks</a>
       <ul className={active} >
-        <li className="nav__item"><a href="#" className="nav__link">Home</a></li>
         <li className="nav__item"><a href="#" className="nav__link">About</a></li>
         <li className="nav__item"><a href="#" className="nav__link">Skills</a></li>
         <li className="nav__item"><a href="#" className="nav__link">Portfolio</a></li>
